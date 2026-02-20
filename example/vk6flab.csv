@@ -1,0 +1,47 @@
+ft-857d-chassis,radio-vhf-port
+ft-857d-chassis,radio-hf-port
+ft-857d-chassis,radio-speaker-port
+ft-857d-chassis,radio-microphone-port
+ft-857d-chassis,radio-ttl-port
+ft-857d-chassis,radio-power-port
+ft-857d-chassis,radio-data-port
+ft-857d-chassis,radio-cat-port
+ft-857d-chassis,radio-acc-port
+ft-857d-chassis,radio-key-port
+ft-857d-head,head-speaker-port
+head-ttl-port,ft-857d-head
+slave-usb-port,remote-rig slave
+slave-com1-port,remote-rig slave
+slave-microphone-port,remote-rig slave
+slave-ttl-port,remote-rig slave
+slave-speaker-port,remote-rig slave
+slave-com2-port,remote-rig slave
+slave-pad-port,remote-rig slave
+slave-12v-port,remote-rig slave
+slave-io-port,remote-rig slave
+remote-rig slave,slave-ethernet-port
+remote-rig master,master-usb-port
+remote-rig master,master-com1-port
+remote-rig master,master-microphone-port
+remote-rig master,master-ttl-port
+remote-rig master,master-speaker-port
+remote-rig master,master-com2-port
+remote-rig master,master-pad-port
+remote-rig master,master-12v-port
+remote-rig master,master-io-port
+master-ethernet-port,remote-rig master
+radio-vhf-port,vhf-coax-radio-selector
+vhf-coax-radio-selector,vhf-antenna-grounding-selector
+vhf-antenna-grounding-selector,vhf-rg-213
+vhf-rg-213,antenna-x-300n
+radio-ttl-port,slave-ttl-port
+radio-microphone-port,slave-microphone-port
+radio-speaker-port,slave-speaker-port
+radio-cat-port,slave-com2-port
+slave-ethernet-port,wifi-slave
+wifi-slave,wifi-master
+wifi-master,master-ethernet-port
+master-microphone-port,microphone
+master-ttl-port,head-ttl-port
+master-speaker-port,speakers
+head-speaker-port,headphones
